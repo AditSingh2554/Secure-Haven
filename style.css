@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.header{
+    height: 760px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.heroimg{
+    width: 598.64px;
+    height: 598.64px;
+    display: inline-block;
+    padding-top: 80px ;
+    padding-left: 75px;
+}
+
+.text{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 748.64px;
+}
+
+.sh-logo{
+    width: 317.5px;
+    height: 55.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.dtf{
+    width: auto;
+    height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 120.5px;
+}
+
+.wctu{
+    width: 526px;
+    position: absolute;
+    top: 205.5px;
+    font-size: 49px;
+    font-weight: 900;
+    line-height: 85px;
+}
+
+.rm{
+    width: 270px;
+    height: 71px;
+    border-radius: 45px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;  
+    font-size: 21px;
+    font-weight: 650;
+    position: absolute;
+    top: 515.5px;
+}
+
+.main{
+    color: black;
+    background-color: white;
+    margin: 0px 30px 0px 30px;
+    height: 830px;
+}
+
+.second-page-first-row{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-content: space-between;
+}
+
+.second-page-text{
+    font-size: 95px;
+    font-weight: 700;
+    text-align: left;
+    display: inline-block;
+    margin: 60px 0px 0px 60px;
+}
+
+.second-page-animation{
+    height: 381px;
+    width: 145px;
+    transform: rotate(90deg);
+    /* position: absolute;
+    top: 709px;
+    right: 200px; */
+}
+
+.client-review{
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    height: 363.55px;
+    justify-content: space-evenly;
+}
+
+.first-review{
+    text-align: center;
+    width: 100%;
+    height: 363.55px;
+    border: 2px solid black;
+}
+
+.second-review{
+    text-align: center;
+    width: 100%;
+    height: 363.55px;
+    border: 2px solid black;
+}
+
+.third-review{
+    text-align: center;
+    width: 100%;
+    height: 363.55px;
+    border: 2px solid black;
+}
+
+.review{
+    font-size: 21.122px;
+    width: 294px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    left: 35px;
+    text-align: left;
+}
+
+.underline{
+    width: 294px;
+    height: 6px;
+    position: relative;
+    top: 30px;
+}
+
+.client-img{
+    width: 63.63pxpx;
+    height: 63.62px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    right: 115px;
+}
+
+.first-client-name, .second-client-name, .third-client-name{
+    line-height: 33px;
+}
+
+.client-name{
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 11px;
+}
+
+.smi, .fkl, .ptp{
+    font-size: 21px;
+    font-weight: 350;
+    position: relative;
+    left: 41px;
+}
+
+.fkl{
+    left: 11px;
+}
+
+.ptp{
+    left: 35px;
+}
+
+.third-page{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 800px;
+}
+
+.third-page-img{
+    display: inline-block;
+}
+
+.third-page-text{
+    width: 353px;
+    height: 452px;
+    color: white;
+    font-size: 105px;
+    font-weight: 700;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.email{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-weight: 400;
+}
+
+.fa-square-facebook, .fa-square-instagram, .fa-square-x-twitter{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -70px;
+    left: 60px;
+}
+
+.footer{
+    text-align: center;
+}

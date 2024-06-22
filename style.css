@@ -11,6 +11,26 @@
     background-color: black;
 }
 
+.nav{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: #232929;
+    /* border-radius: 50%; */
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home, .contact, .about{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .heroimg{
     width: 598.64px;
     height: 598.64px;
@@ -209,8 +229,55 @@
     left: 35px;
 }
 
-.third-page{
+.gtku{
+    color: white;
     background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 659px;
+    text-align: center;
+}
+
+.shlogotext{
+    position: relative;
+    top: 60px;
+    left: 240px;
+}
+
+.get-to-know-us-text{
+    font-size: 105px;
+    font-weight: bold;
+    position: relative;
+    top: 160px;
+    left: 60px;
+    line-height: 90px;
+}
+
+.est{
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: 260px;
+    left: 50px;
+    text-align: center;
+}
+
+.gtku-text{
+    font-size: 23px;
+    font-weight: 375;
+    position: relative;
+    top: 300px;
+    left: 60px;
+}
+
+.gtku-img{
+    height: 600px;
+    position: relative;
+    top: 30px;
+}
+
+.third-page{
+    background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 800px;
@@ -233,7 +300,7 @@
 .third-page-text{
     width: 353px;
     height: 452px;
-    color: white;
+    color: black;
     font-size: 105px;
     font-weight: 700;
     position: relative;
@@ -244,12 +311,12 @@
 .email{
     text-decoration: none;
     font-size: 23px;
-    color: white;
+    color: black;
     font-weight: 400;
 }
 
 .fa-square-facebook, .fa-square-instagram, .fa-square-x-twitter{
-    color: white;
+    color: black;
     font-size: 40px;
     position: relative;
     top: -70px;
@@ -257,5 +324,5 @@
 }
 
 .terms{
-    color: white;
+    color: black;
 }

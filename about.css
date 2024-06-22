@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    color: white;
+}
+
+.about{
+    background-image: url(https://dishawgraphy.my.canva.site/dagiwrthwww/videos/6053f3729925d013cec6f2d08778165e.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 680px;
+}
+
+.our-story{
+    position: relative;
+    top: 25px;
+    font-size: 105px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+}
+
+.about-para-1, .about-para-2{
+    position: relative;
+    top: 25px;
+    font-size: 23px;
+    margin: 0px 15% 0px 15%;
+    text-align: center;
+}
+
+.about-img-main{
+    width: 683px;
+    overflow: hidden;
+}
+
+.about-img{
+    width: 1000px;
+    margin: 0px 0px 0px -200px;
+}

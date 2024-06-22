@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family:  'Roboto','Courier New', Courier, monospace;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact-us-img-main{
+    height: 800px;
+    overflow: hidden;
+}
+
+.contact-us-img{
+    height: 958px;
+    margin: -100px 0px 0px 0px;
+}
+
+.contact-us-text{
+    color: white;
+    display: inline-block;
+}
+
+.lets, .connect{
+    font-size: 105px;
+    font-weight: bold;
+    line-height: 85px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    display: inline-block;
+}
+
+.wwp, .gab{
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    top: 305px;
+    left: 705px;
+    display: inline-block;
+}
+
+.gab{
+    top: 330px;
+    right: -00;
+    display: inline-block;
+}
+
+.flower-img-main{
+    width: 207px;
+    height: 207px;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+.flower-img{
+    width: 207px;
+    height: 207px;
+}
+
+.contact{
+    position: absolute;
+    display: inline-block;
+    right: 50px;
+    top: 420px;
+}
+
+.phone-no{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 50px;
+}
+
+.mails{
+    display: grid;
+    height: 50px;
+    grid-template-rows: 50% 50%;
+    padding-top: 15px;
+}
+
+.fa-square-facebook, .fa-square-instagram, .fa-square-x-twitter{
+    color: white;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-top: 30px;
+}

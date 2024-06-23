@@ -277,7 +277,7 @@
     top: 30px;
 }
 
-.third-page{
+.fourth-page{
     background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -290,7 +290,7 @@
     overflow: hidden;
 }
 
-.third-page-img{
+.fourth-page-img{
     width: 1138px;
     height: 758px;
     margin: 0px 0px -50px -350px;
@@ -298,7 +298,7 @@
     bottom: 0px;
 }
 
-.third-page-text{
+.fourth-page-text{
     width: 353px;
     height: 452px;
     color: black;

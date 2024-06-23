@@ -13,22 +13,23 @@
 
 .nav{
     width: 80%;
+    height: 50px;
     position: relative;
+    top: 20px;
     left: 10%;
     background-color: #232929;
-    /* border-radius: 50%; */
-}
-
-.navbar{
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
-.home, .contact, .about{
-    color: white;
+.home a, .contact-nav a, .about a{
     text-decoration: none;
-    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 2px;
 }
 
 .heroimg{
@@ -42,7 +43,7 @@
 .text{
     display: inline-block;
     position: absolute;
-    top: 80px;
+    top: 130px;
     left: 748.64px;
 }
 
@@ -325,4 +326,10 @@
 
 .terms{
     color: black;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
 }

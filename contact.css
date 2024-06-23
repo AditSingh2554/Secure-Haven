@@ -5,18 +5,46 @@
     font-family:  'Roboto','Courier New', Courier, monospace;
 }
 
+.nav{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 10%;
+    background-color: #232929;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    align-items: center;
+}
+
+.home, .contact-navbar, .about-navbar{
+    background-color: #232929;
+}
+
+.home a, .contact-navbar a, .about-navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 2px;
+    background-color: #232929;
+}
+
 .main{
     display: grid;
     grid-template-columns: 50% 50%;
+    position: absolute;
+    top: 100px;
 }
 
 .contact-us-img-main{
-    height: 800px;
+    height: 770px;
     overflow: hidden;
 }
 
 .contact-us-img{
-    height: 958px;
+    height: 938px;
     margin: -100px 0px 0px 0px;
 }
 

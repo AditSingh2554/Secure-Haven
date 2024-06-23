@@ -5,11 +5,42 @@
     color: white;
 }
 
+.body{
+    background-color: black;
+    height: 100%;
+}
+
+.nav{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    background-color: #232929;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    align-items: center;
+}
+
+.home a, .contact-nav a, .about-navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 2px;
+}
+
 .about{
     background-image: url(https://dishawgraphy.my.canva.site/dagiwrthwww/videos/6053f3729925d013cec6f2d08778165e.gif);
     background-repeat: no-repeat;
     background-color: black;
-    height: 680px;
+    height: 900px;
+}
+
+.about-text{
+    position: relative;
+    top: 150px;
 }
 
 .our-story{
